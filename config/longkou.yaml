@@ -1,0 +1,10 @@
+# data
+root: 'F:/huangkun/HSIDataset/'
+spmap: 'superpixelmap/'
+im_: WHU_Hi_LongKou
+gt_: WHU_Hi_LongKou_gt
+
+# general
+k1: 10
+k2: 30
+D: 20

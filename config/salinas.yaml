@@ -1,0 +1,10 @@
+# data
+root: 'F:/huangkun/HSIDataset/'
+spmap: 'superpixelmap/'
+im_: Salinas_corrected
+gt_: Salinas_gt
+
+# general
+k1: 30
+k2: 30
+D: 20

@@ -1,0 +1,10 @@
+# data
+root: 'F:/huangkun/HSIDataset/'
+spmap: 'superpixelmap/'
+im_: PaviaU
+gt_: PaviaU_gt
+
+# general
+k1: 30
+k2: 25
+D: 20
