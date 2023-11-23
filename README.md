@@ -5,5 +5,15 @@
 ![](https://github.com/HK-code/DV-SGSC/blob/main/images/flowchart.jpg)
 ## Datasets
 SalinasA, Pavia university and Pavia center datasets you can download from [here](https://www.ehu.eus/ccwintco/index.php?title=Hyperspectral_Remote_Sensing_Scenes#Pavia_Centre_and_University), and WHU_Hi_LongKou dataset you can download from [here](http://rsidea.whu.edu.cn/resource_WHUHi_sharing.htm).
+## Evaluation
+```python
+python run.py
+```
+## Generate superpixels
+If you want to use ERS to generate superpixels, first reduce the dimensionality of the hyperspectral image and then use the ERS algorithm to segment it.
+```python
+run ERS/main.py
+run ERS/makesuperpixel.m
+```
 ## More
 If you have any questions and needs, you can contact me, my email is: huangkun@whu.edu.cn.
